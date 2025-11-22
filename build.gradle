@@ -73,3 +73,9 @@ tasks.register('smoke_test', Test) {
     }
 }
 
+tasks.register('positiveSimple_test', Test) {
+    useJUnitPlatform {
+        includeTags("positiveSimple")
+    }
+}
+
